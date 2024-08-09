@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-to-do{
+       border: 1px solid black;
+       border-radius: 8px;
+       /*  */
+       height: 300px; 
+       width: 450px;
+       margin-top: 20px;
+
+}
+
+.container-add-to-do{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.container-add-to-do input{
+    width: 80%;
+    padding: 10px;
+}
+
+.container-add-to-do button{
+    width: 60px;
+    height: 35px;
+}
+
+
+.Task-to-do{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+}
