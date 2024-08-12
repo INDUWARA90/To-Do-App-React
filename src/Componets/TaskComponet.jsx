@@ -1,7 +1,9 @@
 import './componets.css'
 import { tasks as taskArray } from '../data/task'
 
+
 function TaskComponet({ task, index }) {
+
 
 
   function handeldelete() {
@@ -12,12 +14,13 @@ function TaskComponet({ task, index }) {
 
   }
 
+  
 
   return (
     <>
       <div className='Task-to-do'>
-        <img src="" alt="..." onClick={handeldelete} />
-        <p>{task}</p>
+    
+        <p className='task-name'>{task}</p>
         <button onClick={handeldelete}>Remove</button>
       </div>
     </>
